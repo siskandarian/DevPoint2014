@@ -1,0 +1,13 @@
+require 'pry-debbuger'
+
+class Matrix
+
+VALUES = ['0', '']
+POSITIONS_TO_TEST = [
+  [-1,-1], [-1, 0], [-1, 1], #Top Row
+  [0, -1], [0, 0], [0, 1],   #Middle Row
+  [1, -1], [1, 0], [1, 1]    #Bottom Row
+]
+
+def initialize(rows, columns)
+

@@ -1,0 +1,23 @@
+condition = true
+
+# if condition
+ # puts "It's true!"
+ # else
+ #   puts "It's false!"
+ # end
+
+ # some_condition ? true_statement : false_statement
+
+ # condition ? puts "It's true!" : "It's false!"
+
+def it_was_true
+  return "It's true! says \"Carlos\", ha! "
+  end
+
+  def it_was_false
+    return "It's false!"
+    end
+
+ puts (contition ? "It's true! : It's false!")
+ # because contition is true
+ puts ( "It's true!" )
